@@ -1,9 +1,4 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
-
-.font-nunito {
-   font-family: "Kode Mono", monospace;
-}
 
 @theme {
   --color-border: hsl(var(--border));
@@ -119,6 +114,10 @@
 
 .hero-text {
   font-family: 'Nunito', sans-serif;
+}
+
+.font-nunito {
+   font-family: "Kode Mono", monospace;
 }
 
 nav a {
